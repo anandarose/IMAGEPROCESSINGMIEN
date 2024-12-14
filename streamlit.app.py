@@ -11,7 +11,7 @@ menu = st.sidebar.selectbox(
 # ----------------- Home Page -----------------
 if menu == "Home":
     # University logo
-    st.image("Logo PU.jpg", width=300)
+    st.image("Logo pu.jpg", width=300)
     st.title("Welcome to Our Application")
     st.write("""
         This application is brought to you by Group 1 of M-Industrial Engineering-Class 3. 
