@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
 import numpy as np
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, ImageFilter
 
 # Sidebar menu for navigation
 menu = st.sidebar.selectbox(
@@ -30,16 +30,16 @@ if menu == "Home":
     # Display the selected member's photo
     if member == "Ananda Rose Wardani":
         st.subheader("004202300025")
-        st.image("Rose.jpeg", width=150)
+        st.image("Rose.jpeg", width=200)
     elif member == "Cilya Anggreina":
         st.subheader("004202300007")
-        st.image("Cilya.jpeg", width=150)
+        st.image("Cilya.jpeg", width=200)
     elif member == "Gracia":
         st.subheader("004202300036")
-        st.image("Gracia.jpeg", width=150)
+        st.image("Gracia.jpeg", width=200)
     elif member == "Nadia Salsabila Ramadhani":
         st.subheader("004202300075")
-        st.image("Nadia.jpeg", width=150)
+        st.image("Nadia.jpeg", width=200)
 
 # ----------------- Image Processing App Page -----------------
 elif menu == "Image Processing App":
