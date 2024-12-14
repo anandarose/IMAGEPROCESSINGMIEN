@@ -20,7 +20,8 @@ if menu == "Home":
         2. Rotate your image 
         3. Adjust your image contrast 
         
-        Explore the members of our group and try out our advanced image processing app! you can select page "image processing app" to try our application
+        Explore the members of our group and try out our advanced image processing app! 
+        you can select page "image processing app" to try our application
     """)
 
     # Members section
