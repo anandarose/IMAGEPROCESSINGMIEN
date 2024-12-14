@@ -12,9 +12,14 @@ menu = st.sidebar.selectbox(
 if menu == "Home":
     # University logo
     st.image("Logo pu.png", width=300)
-    st.title("Welcome to Our Application")
+    st.title("Image Processing")
     st.write("""
-        This application is brought to you by Group 1 of M-Industrial Engineering-Class 3. 
+        This application is made by Group 1 of M-Industrial Engineering-Class 3. 
+        With this Application you can :
+        1. Apply Blur to your image 
+        2. Rotate your image 
+        3. Adjust your image contrast 
+        
         Explore the members of our group and try out our advanced image processing app!
     """)
 
