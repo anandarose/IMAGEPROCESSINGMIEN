@@ -37,7 +37,7 @@ if menu == "Home":
         st.subheader("004202300025")
         st.image("Rose.jpeg", width=150)
     elif member == "Cilya Anggreina":
-        st.subheader("004202300007")
+        st.subheader("004202300071")
         st.image("Cilya.jpeg", width=150)
     elif member == "Gracia":
         st.subheader("004202300036")
