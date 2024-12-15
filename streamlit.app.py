@@ -43,7 +43,7 @@ if menu == "Home":
         st.subheader("004202300036")
         st.image("Gracia.jpeg", width=150)
     elif member == "Nadia Salsabila Ramadhani":
-        st.subheader("004202300075")
+        st.subheader("004202300053")
         st.image("Nadia.jpeg", width=150)
 
 # ----------------- Image Processing App Page -----------------
